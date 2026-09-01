@@ -1,0 +1,45 @@
+/* Single neutral accent for the whole deck (overrides the theme's coral). */
+.slidev-layout .highlight {
+  color: var(--color-sage);
+  font-weight: 700;
+}
+
+/* Columns are deliberately sparse in this deck. Centre the row as a block so
+   the space under the title is shared, while both column headings stay level. */
+.slidev-layout.logos-two-cols .logos-two-cols-container {
+  align-content: center;
+  padding-bottom: 2rem;
+}
+.slidev-layout.logos-two-cols .logos-col {
+  overflow: visible;
+}
+
+/* Byte-level walkthroughs need to stay on one line at a readable size. */
+.slidev-layout pre code {
+  font-size: 0.75rem;
+  line-height: 1.6;
+}
+
+.slidev-layout table {
+  font-size: 0.8rem;
+}
+
+/* Vertically stacked slides: spread the sections through the space under the
+   title instead of letting them pile up at the top. */
+.slidev-layout.stacked .logos-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding-bottom: 2rem;
+}
+.slidev-layout.stacked .logos-content > h1 {
+  flex: 0 0 auto;
+  margin-bottom: 0;
+}
+.slidev-layout.stacked .section > h3 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+.slidev-layout.stacked .section > *:last-child {
+  margin-bottom: 0;
+}
