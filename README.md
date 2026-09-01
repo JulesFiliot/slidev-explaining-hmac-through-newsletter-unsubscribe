@@ -1,11 +1,13 @@
-# Welcome to [Slidev](https://github.com/slidevjs/slidev)!
+# Explaining HMAC through our newsletter unsubscribe links -- presentation
+
+[Slidev](https://sli.dev) deck about the HMAC-SHA256 tokens that authorize the Logos Admin newsletter unsubscribe endpoint. Uses the [`@logos-co/slidev-theme-logos`](https://www.npmjs.com/package/@logos-co/slidev-theme-logos) theme.
+
+Source material and the speaker script live in `local/`, which is gitignored.
 
 To start the slide show:
 
-- `npm install`
-- `npm run dev`
+- `pnpm install`
+- `pnpm run dev`
 - visit <http://localhost:3030>
 
-Edit the [slides.md](./slides.md) to see the changes.
-
-Learn more about Slidev at the [documentation](https://sli.dev/).
+Export to PDF with `pnpm run export`.
