@@ -57,7 +57,6 @@ class: stacked
 
 - Gmail's one-click button
 - Opened five years later
-- A login here is a compliance failure
 
 </div>
 
@@ -73,8 +72,6 @@ layout: center
 
 ## We can verify the link is <span class="highlight">ours</span>, and <span class="highlight">unchanged</span>.
 
-<p class="mt-12 belittle">Forwarded? That is Alice's link to look after.</p>
-
 </div>
 
 ---
@@ -89,7 +86,6 @@ layout: default
 - Covers <span class="highlight">every</span> parameter the endpoint acts on
 - No server-side state
 - Never expires
-- Cheap to check, short enough for a query string
 
 <div class="mt-10"></div>
 
@@ -143,8 +139,6 @@ layout: two-cols
 # Verifying
 
 ::left::
-
-### No decode. Recompute.
 
 ```ts
 export function verifyUnsubscribeToken(params, token) {
