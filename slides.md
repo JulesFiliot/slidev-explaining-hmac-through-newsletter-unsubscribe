@@ -1,9 +1,9 @@
 ---
 theme: '@logos-co/slidev-theme-logos'
 layout: cover
-title: Explaining HMAC through our newsletter unsubscribe links
+title: Securing our newsletter unsubscribe links with HMAC
 info: |
-  ## Explaining HMAC through our newsletter unsubscribe links
+  ## Securing our newsletter unsubscribe links with HMAC
   Why a public endpoint needs a tamper-proof link, and how HMAC gives us one.
 date: September 2026
 description: Technical Services / Web

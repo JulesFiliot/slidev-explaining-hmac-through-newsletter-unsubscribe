@@ -1,4 +1,4 @@
-# Explaining HMAC through our newsletter unsubscribe links -- presentation
+# Securing our newsletter unsubscribe links with HMAC -- presentation
 
 [Slidev](https://sli.dev) deck about the HMAC-SHA256 tokens that authorize the Logos Admin newsletter unsubscribe endpoint. Uses the [`@logos-co/slidev-theme-logos`](https://www.npmjs.com/package/@logos-co/slidev-theme-logos) theme.
 
